@@ -1,0 +1,41 @@
+(bool l)=function risv(bool ii=0) 
+begin 
+bool l=false; 
+l=move(2) 
+if l>false begin [ if ]
+l=move(1) 
+end [ if ] 
+end
+(bool l)=function prsv(bool ii=0) 
+begin 
+bool l=false; 
+l=move(3) 
+if l>false begin [ if ]
+l=move(4) 
+end [ if ] 
+end
+bool ii=false; 
+bool ri=false; 
+bool g=false; 
+bool pram=false;
+int kon=100;
+for int ss=0 : kon begin [ for ] if ii<true begin [ if ]
+ri = = risv(ii) 
+if ri>false begin [ if ]
+right 
+g=move(3) 
+end [ if ] 
+ri=!ri; 
+if ri>false begin [ if ]
+pram = = prsv(ii) 
+if pram>false begin [ if ]
+g=move(3) 
+end [ if ] 
+pram=!pram; 
+if pram>false begin [ if ]
+left 
+end [ if ] 
+end [ if ] 
+ii=exit 
+end [ if ]
+end [ for ]
